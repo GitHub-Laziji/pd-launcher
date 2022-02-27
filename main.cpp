@@ -73,7 +73,7 @@ void start(const string &name) {
         }
     }
     shell(sudo + "sntp -sS time.apple.com");
-    printf("虚拟机启动完成");
+    printf("虚拟机启动完成\n");
 }
 
 int main() {
